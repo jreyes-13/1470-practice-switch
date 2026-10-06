@@ -5,14 +5,14 @@ int main() {
 
     int number = 10;
     
-    if (number == 0) {
-        cout << "Zero";
+    if (number %2 == 1) {
+        cout << "Odd";
     }
     else if (number % 2 == 0) {
         cout << "Even";
     }
     else {
-        cout << "Odd";
+        cout << "Zero";
     }
 
 
